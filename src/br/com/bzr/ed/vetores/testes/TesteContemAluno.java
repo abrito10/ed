@@ -22,6 +22,6 @@ public class TesteContemAluno {
 		
 		
 		aluno.setNome("Ana");
-		//System.out.println(lista.contem(aluno)); // nao esta dentro do vetor lista
+		System.out.println(lista.contem(aluno)); // nao esta dentro do vetor lista
 	}
 }
