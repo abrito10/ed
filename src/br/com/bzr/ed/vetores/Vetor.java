@@ -11,7 +11,17 @@ public class Vetor {
 	public void adiciona(Aluno aluno) {
 		this.garantaEspaco();
 		this.alunos[this.totalDeAlunos] = aluno;
-		this.totalDeAlunos++;	
+		this.totalDeAlunos++;
+		//this.adiciona2(aluno);
+		}
+	
+	public void adiciona2(Aluno aluno) {
+		for (int i = 0; i < this.alunos.length; i++) {
+		if (this.alunos[i] == null) {
+		this.alunos[i] = aluno;
+		break;
+		}
+		}
 		}
 	
 	public void adiciona(int posicao, Aluno aluno) {
